@@ -1,0 +1,83 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "2",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "Initial",
+          "type": "SQL",
+          "filepath": "C:\\Users\\jason\\demo\\db-source-control\\recipe-app-flyway\\.\\db\\migrations\\V1__Initial.sql",
+          "executionTime": 9
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "alter user  add two step verification",
+          "type": "SQL",
+          "filepath": "C:\\Users\\jason\\demo\\db-source-control\\recipe-app-flyway\\.\\db\\migrations\\V2__alter_user__add_two_step_verification.sql",
+          "executionTime": 6
+        }
+      ],
+      "migrationsExecuted": 2,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "RecipeBox",
+      "warnings": [],
+      "timestamp": "2023-06-25T09:20:34.822056500",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "RecipeBox",
+      "warnings": [],
+      "timestamp": "2023-06-26T08:02:16.311583200",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "2",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "Initial",
+          "type": "SQL",
+          "filepath": "C:\\Users\\jason\\demo\\db-source-control\\recipe-app-flyway\\.\\db\\migration\\V1__Initial.sql",
+          "executionTime": 11
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "alter user  add two step verification",
+          "type": "SQL",
+          "filepath": "C:\\Users\\jason\\demo\\db-source-control\\recipe-app-flyway\\.\\db\\migration\\V2__alter_user__add_two_step_verification.sql",
+          "executionTime": 7
+        }
+      ],
+      "migrationsExecuted": 2,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "RecipeBox",
+      "warnings": [],
+      "timestamp": "2023-06-26T08:02:49.958356",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}
