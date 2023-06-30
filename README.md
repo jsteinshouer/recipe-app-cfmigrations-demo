@@ -1,8 +1,8 @@
 
 
-# OWASP Demo CFML Application
+# Demo CFML Application using cfmigrations
 
-A simple demo application used to show some ways of securing CFML to help stop some of the OWASP Top 10 vulnerabilities. It currently has only been tested with CF 2018.
+A simple demo application using the [cfmigrations](https://github.com/coldbox-modules/cfmigrations) library to database development.
 
 ### Database Setup
 
